@@ -24,7 +24,8 @@
     "@quasar/app-vite": "^2.4.0",
     "@types/node": "^24.7.0",
     "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.14"
+    "postcss": "^8.4.14",
+    "vitest": "^3.2.4"
   },
   "engines": {
     "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
