@@ -1,9 +1,9 @@
 name: CI/CD Pipeline for Quasar
 on:
   push:
-    branches: [ "master", "main" ]
+    branches: [ "master", "cicd" ]
   pull_request:
-    branches: [ "master", "main" ]
+    branches: [ "master", "cicd" ]
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
